@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CV. Cross-Check</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a href="#overview" class="nav__list-link">Overview</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#contacts" class="nav__list-link">Contacts</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#skills" class="nav__list-link">Skills</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#code" class="nav__list-link">Code Example</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#projects" class="nav__list-link">Projects</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#education" class="nav__list-link">Education</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#english" class="nav__list-link">English</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="title title__main">Jonathan Doe</h1>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="section overview" id="overview">
+          <h2 class="section__title overview__title">Overview</h2>
+          <div class="overview__inner">
+            <div class="overview__img-wrapper">
+              <img class="overview__img" src="author.jpg" alt="author">
+            </div>
+            <div class="overview__content">
+              <p class="overview__text">
+                I am eager to learn and grow in the field of frontend
+                development. My goal is to become proficient in vanilla
+                JavaScript and modern JavaScript frameworks.
+              </p>
+              <p class="overview__text">
+                I thrive in environments that allow me to be challenged and to
+                constantly improve my skills. Even as a Junior Developer, I
+                understand the importance of self-learning, seeking out
+                solutions, and actively contributing to the team.
+              </p>
+              <p class="overview__text">
+                I believe my enthusiasm for technology and my problem-solving
+                mindset make me a great fit for any fast-paced development
+                environment.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="section contacts" id="contacts">
+          <h2 class="section__title contacts__title">Contacts</h2>
+          <div class="contacts__inner">
+            <ul class="contacts__list">
+              <li class="contacts__list-item contacts__phone left-border">
+                Phone:
+                <a href="tel:+998909998877" class="contacts__phone-link"
+                  >+99 890 999-88-77</a
+                >
+              </li>
+              <li class="contacts__list-item contacts__email left-border">
+                Email:
+                <a
+                  href="mailto:john.doe.2024@gmail.com"
+                  class="contacts__email-link"
+                  >john.doe.2024@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section skills" id="skills">
+          <h2 class="section__title skills__title">Skills</h2>
+          <div class="skills__inner">
+            <ul class="skills__list">
+              <li class="skills__list-item left-border">
+                Programming Languages: <span>JavaScript, HTML, CSS</span>
+              </li>
+              <li class="skills__list-item left-border">
+                Version Control: <span>Git, GitHub</span>
+              </li>
+              <li class="skills__list-item left-border">
+                Tools: <span>Visual Studio Code, Postman</span>
+              </li>
+              <li class="skills__list-item left-border">
+                Databases: <span>MySQL</span>
+              </li>
+              <li class="skills__list-item left-border">
+                Methodologies: <span>Agile, SCRUM</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section code" id="code">
+          <h2 class="section__title code__title">Code Example</h2>
+          <div class="code__inner">
+            <pre class="code__pre left-border">
+              <code class="language-javascript">
+  function multiply(a, b){
+    return a * b
+  }</code>
+            </pre>
+          </div>
+        </section>
+        <section class="section projects" id="projects">
+          <h2 class="section__title projects__title">Projects</h2>
+          <div class="projects__inner">
+            <div class="projects__item">
+              <a
+                class="projects__item-link left-border"
+                href="https://boburwebdev.github.io/rsschool-cv/cv"
+                target="_blank"
+                >CV. Markdown</a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="section education" id="education">
+          <h2 class="section__title education__title">Education</h2>
+
+          <div class="education__inner">
+            <ul class="education__list">
+              <li class="education__list-item left-border">
+                Frontend Web Development Certificate, FreeCodeCamp (June 2024 -
+                Present)
+                <ul class="education__sub-list">
+                  <li class="education__sub-list-item">
+                    Courses on HTML, CSS, JavaScript
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section english" id="english">
+          <h2 class="section__title english__title">English</h2>
+          <div class="english__inner">
+            <div class="english__content left-border">
+              Advanced knowledge of English (both spoken and written).
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <a
+            class="footer__github"
+            href="https://github.com/boburwebdev"
+            target="_blank"
+            >Github</a
+          >
+
+          <div class="footer__date">November, 2024</div>
+
+          <a
+            class="footer__course"
+            href="https://rs.school/courses/javascript"
+            target="_blank"
+          >
+            <img
+              class="footer__rs-school-logo"
+              src="./rs-school-logo.svg"
+              alt="rs-school-logo">
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.js"></script>
+  </body>
+</html>
